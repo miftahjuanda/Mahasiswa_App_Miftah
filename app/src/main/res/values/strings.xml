@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mahasiswa_App_Miftah</string>
+    <string name="nama">Nama</string>
+    <string name="noHP">085276767677</string>
+    <string name="alamat">Jl. Bangau</string>
+    <string name="btn">btn</string>
+    <string name="no_internet">Silahkan Periksa Koneksi Internet Anda</string>
+    <string name="close">Tutup</string>
+    <string name="logo">logo</string>
+    <string name="hp">Nomor Handphone</string>
+    <string name="jl">Alamat</string>
+    <string name="save">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="hapus">HAPUS DATA ?</string>
+    <string name="note_delete">Pastikan Kembali Data Yang Ingin Anda Hapus</string>
+    <string name="del">Hapus</string>
+</resources>
