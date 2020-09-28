@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class ResponseGetData(
 
+	//todo 2 generate data servernya menggunakan pojo generator
 	@field:SerializedName("data")
 	val data: List<DataItem>? = null,
 

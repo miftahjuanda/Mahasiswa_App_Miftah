@@ -1,10 +1,8 @@
-package com.udacoding.mahasiswa_app_miftah.model.action
+package com.udacoding.mahasiswa_app_miftah.model.getRegister
 
 import com.google.gson.annotations.SerializedName
 
-data class ResponseAction(
-
-	//todo convert respon server
+data class ResponseRegister(
 
 	@field:SerializedName("message")
 	val message: String? = null,

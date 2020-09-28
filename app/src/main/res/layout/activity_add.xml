@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".view.addActivity">
+    tools:context=".ui.add.addActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -47,6 +47,7 @@
             android:id="@+id/edt_hp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLength="13"
             android:hint="@string/hp"
             android:inputType="number"
             android:paddingBottom="16dp" />

@@ -21,10 +21,10 @@
             <LinearLayout
                 android:id="@+id/bagian1"
                 android:layout_width="match_parent"
-                android:layout_toStartOf="@id/btn_delete"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/margin3"
                 android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/margin3"
+                android:layout_toStartOf="@id/btn_delete"
                 android:gravity="start"
                 android:padding="@dimen/margin5">
 
@@ -47,8 +47,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margin5"
                         android:text="@string/nama"
-                        android:textStyle="bold"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold"
                         android:typeface="monospace" />
 
                     <TextView
@@ -57,6 +57,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margin3"
                         android:drawablePadding="@dimen/margin5"
+                        android:maxLength="13"
                         android:text="@string/noHP"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         app:drawableStartCompat="@drawable/ic_call" />

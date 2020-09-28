@@ -10,4 +10,10 @@
     <dimen name="margin85">85dp</dimen>
     <dimen name="margin3">3dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="margin24">24dp</dimen>
+    <dimen name="margin36">36dp</dimen>
+    <dimen name="margin50">50dp</dimen>
+    <dimen name="text13">13sp</dimen>
+    <dimen name="text15">15sp</dimen>
+    <dimen name="text36">36sp</dimen>
 </resources>

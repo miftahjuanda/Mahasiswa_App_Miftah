@@ -13,19 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".view.addActivity"/>
-
-        <activity android:name=".view.SplashActivity">
+        <activity android:name=".ui.login.view.LoginActivity"></activity>
+        <activity android:name=".ui.register.view.RegisterActivity" />
+        <activity android:name=".ui.add.view.AddActivity" />
+        <activity android:name=".ui.splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".view.MainActivity"/>
-
+        <activity android:name=".ui.beranda.view.MainActivity" />
     </application>
 
 </manifest>

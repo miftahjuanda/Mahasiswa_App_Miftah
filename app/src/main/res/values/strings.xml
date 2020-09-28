@@ -14,4 +14,18 @@
     <string name="hapus">HAPUS DATA ?</string>
     <string name="note_delete">Pastikan Kembali Data Yang Ingin Anda Hapus</string>
     <string name="del">Hapus</string>
+    <string name="update">Update</string>
+    <string name="login">Login</string>
+    <string name="info_akun1">Sudah Punya Akun ??</string>
+    <string name="info2">Buat Akun \nAnda</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="info3">Sudah Punya Akun ?</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="info4">Selamat Datang, \nSilahkan Registrasi Jika Belum Punya Akun</string>
+    <string name="info5">Selamat Datang, Silahkan Lengkapi \nHarap Isi Kolom di Bawah Ini Dengan Lengkap</string>
+    <string name="pass_konfirm">Konfirmasi Password</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
 </resources>

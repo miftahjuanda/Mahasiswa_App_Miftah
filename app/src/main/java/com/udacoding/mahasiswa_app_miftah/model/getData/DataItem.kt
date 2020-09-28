@@ -7,6 +7,7 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class DataItem(
 
+	//todo 2 generate data servernya menggunakan pojo generator
 	@field:SerializedName("mahasiswa_alamat")
 	val mahasiswaAlamat: String? = null,
 
@@ -18,4 +19,5 @@ data class DataItem(
 
 	@field:SerializedName("mahasiswa_nama")
 	val mahasiswaNama: String? = null
+
 ) : Parcelable
