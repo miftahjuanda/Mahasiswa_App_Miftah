@@ -2,6 +2,7 @@ package com.udacoding.mahasiswa_app_miftah.ui.add.view
 
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.udacoding.mahasiswa_app_miftah.R
@@ -21,6 +22,7 @@ class AddActivity : AppCompatActivity(), AddView {
 
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
 
         addPresenter = AddPresenter(this)
 
@@ -73,8 +75,6 @@ class AddActivity : AppCompatActivity(), AddView {
 
                     } else {
                         addPresenter?.getInput(nama, hp, alamat)
-                        addSuccess("Berhasil input")
-                        finish()
                     }
                 }
             }
@@ -86,6 +86,8 @@ class AddActivity : AppCompatActivity(), AddView {
     }
 
     override fun onSucces(responseAdd: ResponseAction) {
+        Toast.makeText(applicationContext, "Berhasil di Tambahkan", Toast.LENGTH_SHORT).show()
+        finish()
     }
 
     override fun onError(msg: String) {
